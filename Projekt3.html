@@ -2,23 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Projekt3</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 </head>
 <body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
     <div class="container">
         <div class="row">
-            <col-sm-9>
-                <img src="https://picsum.photos/id/237/200/300" alt="Soru">
+            <div class="col-sm-8 ">
+                <img style="margin-top:55px" src="https://picsum.photos/id/237/200/300" alt="Soru">
                 <p>
-                    Proje 3 /ln [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] /ln dizisinin Binary-Search-Tree aşamalarını yazınız.
-
-Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
+                    Proje 3 <br> [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] <br> dizisinin Binary-Search-Tree aşamalarını yazınız. <br> Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
                 </p>
-            </col-sm-9>
-            <col-sm-3></col-sm-3>
+            </div>
+            <div style="margin-top:25px" class="col-sm-4">
+                <p> Lösung: <br>
+                    Dizinin ilk elemanı root olarak kabul edilir bu nedenle root, 7'dir. Her bir adımda kendisinden küçükler sola, büyükler sağa olacak şekilde ağacın yaprakları yerleştirilir. <br>
+                      7 <br> 5 8 <br> 1 6 9 <br> 0 3 <br> 2 4 
+                </p>
+            </div>
+
         </div>
     </div>
+
     
 </body>
 </html>
+
+
